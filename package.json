@@ -1,0 +1,42 @@
+{
+  "name": "wallpetint",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ethersproject/providers": "^5.7.0",
+    "@ledgerhq/iframe-provider": "ledgerhq/iframe-provider",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2",
+    "@walletconnect/web3-provider": "^1.8.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.4.2",
+    "web-vitals": "^2.1.0",
+    "web3modal": "^1.9.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
